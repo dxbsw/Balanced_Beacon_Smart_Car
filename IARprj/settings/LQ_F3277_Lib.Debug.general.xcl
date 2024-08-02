@@ -1,0 +1,15 @@
+"E:\car\arm\bin\armproc.dll" 
+
+"E:\car\arm\bin\armjlink2.dll" 
+
+"C:\Users\Administrator\Desktop\7.19晚\IARprj\Debug\Exe\MM32.out" 
+
+--plugin "E:\car\arm\bin\armbat.dll" 
+
+--device_macro "E:\car\arm\config\debugger\MindMotion\MM32F3270.dmac" 
+
+--flash_loader "E:\car\arm\config\flashloader\MindMotion\FlashMM32F327xGx.board" 
+
+
+
+

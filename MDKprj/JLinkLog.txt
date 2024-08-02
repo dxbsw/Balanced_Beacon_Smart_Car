@@ -1,0 +1,32 @@
+T3F3C 000:013.667   SEGGER J-Link V7.22b Log File
+T3F3C 000:014.195   DLL Compiled: Jun 17 2021 17:22:49
+T3F3C 000:014.208   Logging started @ 2022-02-23 13:50
+T3F3C 000:014.221 - 14.228ms
+T3F3C 000:014.401 JLINK_SetWarnOutHandler(...)
+T3F3C 000:014.545 - 0.151ms
+T3F3C 000:014.561 JLINK_OpenEx(...)
+T3F3C 000:023.608   Firmware: J-Link V9 compiled May 17 2019 09:50:41
+T3F3C 000:024.197   Firmware: J-Link V9 compiled May 17 2019 09:50:41
+T3F3C 000:025.073   Decompressing FW timestamp took 400 us
+T3F3C 000:030.371   Decompressing FW took 5100 us
+T3F3C 000:030.664   Looking for J-Link GUI Server exe at: D:\diansai\stm32\ARM\Segger\JLinkGUIServer.exe
+T3F3C 000:030.820   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T3F3C 000:333.776   Failed to connect to J-Link GUI Server.
+T3F3C 001:572.833   Updating firmware:  J-Link V9 compiled May  7 2021 16:26:12
+T3F3C 001:575.045   Replacing firmware: J-Link V9 compiled May 17 2019 09:50:41
+T3F3C 001:729.324   
+  ***** Error: 
+T3F3C 001:729.349   Communication timed out: Requested 1 bytes, received -1 bytes !
+T3F3C 001:729.357   
+  ***** Error: 
+T3F3C 001:729.363   Communication timed out - Can not execute firmware update
+T3F3C 002:906.561   
+  ***** Error: 
+T3F3C 002:906.595   Cannot connect to J-Link
+T3F3C 002:927.358 - 2912.811ms returns "Communication timed out: Requested 1 bytes, received -1 bytes !
+Communication timed out - Can not execute firmware update
+Cannot connect to J-Link"
+T3F3C 004:681.307 JLINK_Close()
+T3F3C 004:681.797 - 0.498ms
+T3F3C 004:681.808   
+T3F3C 004:681.813   Closed

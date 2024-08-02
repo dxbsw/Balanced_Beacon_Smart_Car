@@ -1,0 +1,13 @@
+"E:\car\arm\bin\armproc.dll" 
+
+"E:\car\arm\bin\armsim2.dll" 
+
+"E:\智能车\LQ_F3277_Lib 2111119直立信标\IARprj\Debug\Exe\MM32.out" 
+
+--plugin "E:\car\arm\bin\armbat.dll" 
+
+--device_macro "E:\car\arm\config\debugger\MindMotion\MM32F3270.dmac" 
+
+
+
+

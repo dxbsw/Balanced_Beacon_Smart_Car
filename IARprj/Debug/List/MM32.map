@@ -1,0 +1,857 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.1.14183/W32 for ARM                25/Jul/2022  16:06:07
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Exe\MM32.out
+#    Map file     =  
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\List\MM32.map
+#    Command line =  
+#        -f C:\Users\ADMINI~1\AppData\Local\Temp\EW71F5.tmp
+#        (C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_adc.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_bkp.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_can.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_comp.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_crc.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_crs.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_dac.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_dbg.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_dma.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_eth.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_exti.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_flash.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_fsmc.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_gpio.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_i2c.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_iwdg.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_misc.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_pwr.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_rcc.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_rtc.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_sdio.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_spi.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_tim.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_uart.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_uid.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_ver.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\hal_wwdg.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_ADC.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_AnoScope.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_Balance.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_CAMERA.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_demo_DMP.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_DMA.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_Encoder.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_FLASH.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_GPIO.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_GPIO_EXIT.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_GPIO_KEY.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_GPIO_LED.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_I2C.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_I2C_MPU6050.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_ICM20689.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_ImageProcess.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_Inductor.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_MotorServo.o
+#        C:\Users\Administrator\Desktop\7.19Íí\APP\MPU6050\LQ_MPU6050_DMP.a
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_MT9V034.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_OLED096.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_PID.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_PWM.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_SOFTI2C.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_SOFTSPI.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_SPI.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_SYS.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_TFT18.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_TIMER.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\LQ_UART.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\main.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\SIR_BELL.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\startup_mm32f327x_iar.o
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj\system_mm32f327x.o
+#        -o C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Exe\MM32.out
+#        --map
+#        C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\List\MM32.map
+#        --config E:\car\arm\config\linker\MindMotion\MM32F3270.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Lt009]: Inconsistent wchar_t size
+            LQ_MPU6050_DMP.o(LQ_MPU6050_DMP.a) has wchar_t size 16 bits
+            hal_adc.o and 85 other objects, some of them in dl7M_tlf.a and 14
+                      other libraries have wchar_t size 32 bits
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2001ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"A0":                                       0x190
+  .intvec            ro code  0x08000000    0x190  startup_mm32f327x_iar.o [1]
+                            - 0x08000190    0x190
+
+"P1":                                      0x9f22
+  .text              ro code  0x08000190   0x1a54  LQ_MPU6050_DMP.o [3]
+  .text              ro code  0x08001be4    0x388  LQ_SOFTI2C.o [1]
+  .text              ro code  0x08001f6c     0xd8  LQ_SYS.o [1]
+  .text              ro code  0x08002044     0x68  memcmp.o [6]
+  .text              ro code  0x080020ac     0x3a  ABImemset48.o [6]
+  .text              ro code  0x080020e6      0xa  xsprout.o [4]
+  .text              ro code  0x080020f0     0xa6  ABImemcpy.o [6]
+  .text              ro code  0x08002196      0x2  startup_mm32f327x_iar.o [1]
+  .text              ro code  0x08002198     0x22  S32ToDbl.o [5]
+  .text              ro code  0x080021bc    0x246  DblDiv.o [5]
+  .text              ro code  0x08002404     0x68  DblToFlt.o [5]
+  .text              ro code  0x0800246c     0xd8  FltMul.o [5]
+  .text              ro code  0x08002544     0xe2  FltAdd.o [5]
+  .text              ro code  0x08002628     0x48  FltToDbl.o [5]
+  .text              ro code  0x08002670     0x20  DblCmpEq.o [5]
+  .text              ro code  0x08002690    0x1a2  DblMul.o [5]
+  .text              ro code  0x08002834     0xe2  DblSub.o [5]
+  .text              ro code  0x08002918     0x2e  DblCmpLe.o [5]
+  .text              ro code  0x08002948     0xf2  sqrt.o [5]
+  .text              ro code  0x08002a3c     0xa8  atan64.o [5]
+  .text              ro code  0x08002ae4     0x80  FltSub.o [5]
+  .text              ro code  0x08002b64    0x112  atan2_64.o [5]
+  .text              ro code  0x08002c78    0x350  LQ_GPIO.o [1]
+  .text              ro code  0x08002fc8    0x114  hal_gpio.o [1]
+  .text              ro code  0x080030dc     0x6c  hal_misc.o [1]
+  .text              ro code  0x08003148     0x84  hal_rcc.o [1]
+  .text              ro code  0x080031cc    0x178  DblAdd.o [5]
+  .rodata            const    0x08003344     0x14  LQ_Balance.o [1]
+  .text              ro code  0x08003358    0x250  iar_Atan64.o [5]
+  .text              ro code  0x080035a8    0x144  hal_exti.o [1]
+  .text              ro code  0x080036ec    0xb70  LQ_CAMERA.o [1]
+  .text              ro code  0x0800425c    0x268  LQ_GPIO_LED.o [1]
+  .text              ro code  0x080044c4    0x716  LQ_MT9V034.o [1]
+  .text              ro code  0x08004bdc    0x23c  LQ_DMA.o [1]
+  .text              ro code  0x08004e18     0x1c  U32ToFlt.o [5]
+  .text              ro code  0x08004e34     0xfc  FltDiv.o [5]
+  .text              ro code  0x08004f30     0x24  S32ToFlt.o [5]
+  .text              ro code  0x08004f54     0x24  FltCmpLe.o [5]
+  .text              ro code  0x08004f78      0x8  abs.o [4]
+  .text              ro code  0x08004f80    0x7c4  LQ_TFT18.o [1]
+  .text              ro code  0x08005744     0x1a  U32ToDbl.o [5]
+  .text              ro code  0x08005760     0x2a  FltToS32.o [5]
+  .text              ro code  0x0800578c    0x120  hal_dma.o [1]
+  .text              ro code  0x080058ac    0x394  hal_tim.o [1]
+  .text              ro code  0x08005c40    0x176  hal_spi.o [1]
+  .text              ro code  0x08005db8    0xc02  xprintflarge_nomb.o [4]
+  .text              ro code  0x080069bc     0x16  strchr.o [6]
+  .text              ro code  0x080069d4     0x44  xfail_s.o [4]
+  .text              ro code  0x08006a18     0x36  strlen.o [6]
+  .text              ro code  0x08006a50     0x58  memchr.o [6]
+  .text              ro code  0x08006aa8    0x22e  I64DivMod.o [6]
+  .text              ro code  0x08006cd8     0x70  frexp.o [5]
+  .text              ro code  0x08006d48     0x28  DblToU32.o [5]
+  .text              ro code  0x08006d70      0xc  xlocale_c.o [4]
+  .text              ro code  0x08006d7c      0x6  abort.o [4]
+  .text              ro code  0x08006d84      0x2  I64DivZer.o [6]
+  .text              ro code  0x08006d88     0x14  exit.o [7]
+  .rodata            const    0x08006d9c    0xbe0  LQ_TFT18.o [1]
+  .text              ro code  0x0800797c    0x7e4  LQ_TIMER.o [1]
+  .text              ro code  0x08008160    0x278  LQ_Encoder.o [1]
+  .text              ro code  0x080083d8    0x20c  LQ_ICM20689.o [1]
+  .text              ro code  0x080085e4    0x204  LQ_PID.o [1]
+  .text              ro code  0x080087e8     0x24  FltCmpGe.o [5]
+  .text              ro code  0x0800880c    0x1b8  LQ_MotorServo.o [1]
+  .text              ro code  0x080089c4     0x40  sprintf.o [4]
+  .text              ro code  0x08008a04     0xbc  LQ_SOFTSPI.o [1]
+  .text              ro code  0x08008ac0    0x2c4  LQ_PWM.o [1]
+  .text              ro code  0x08008d84    0x590  LQ_Balance.o [1]
+  .text              ro code  0x08009314    0x118  LQ_GPIO_KEY.o [1]
+  .rodata            const    0x0800942c    0x4bc  LQ_TFT18.o [1]
+  .text              ro code  0x080098e8    0x368  system_mm32f327x.o [1]
+  .text              ro code  0x08009c50    0x1a8  LQ_UART.o [1]
+  .text              ro code  0x08009df8     0x2a  hal_uart.o [1]
+  .text              ro code  0x08009e22     0x40  zero_init3.o [6]
+  .text              ro code  0x08009e62     0x38  packbits_init_single.o [6]
+  .text              ro code  0x08009e9c     0x28  data_init.o [6]
+  .iar.init_table    const    0x08009ec4     0x20  - Linker created -
+  .rodata            const    0x08009ee4     0x20  LQ_TIMER.o [1]
+  .text              ro code  0x08009f04     0x20  main.o [1]
+  .text              ro code  0x08009f24     0x10  SIR_BELL.o [1]
+  .text              ro code  0x08009f34     0x1e  cmain.o [6]
+  .text              ro code  0x08009f52      0x4  low_level_init.o [4]
+  .text              ro code  0x08009f56      0x4  exit.o [4]
+  .text              ro code  0x08009f5c      0xa  cexit.o [6]
+  .rodata            const    0x08009f68     0x14  LQ_Balance.o [1]
+  .rodata            const    0x08009f7c     0x14  LQ_MT9V034.o [1]
+  .rodata            const    0x08009f90     0x14  LQ_MT9V034.o [1]
+  .rodata            const    0x08009fa4     0x10  LQ_Balance.o [1]
+  .rodata            const    0x08009fb4     0x10  LQ_Balance.o [1]
+  .rodata            const    0x08009fc4     0x10  LQ_MT9V034.o [1]
+  .rodata            const    0x08009fd4     0x10  LQ_MT9V034.o [1]
+  .text              ro code  0x08009fe4     0x10  startup_mm32f327x_iar.o [1]
+  .rodata            const    0x08009ff4      0xc  LQ_Balance.o [1]
+  .rodata            const    0x0800a000      0xc  LQ_Balance.o [1]
+  .rodata            const    0x0800a00c      0xc  LQ_Balance.o [1]
+  .rodata            const    0x0800a018      0xc  LQ_Balance.o [1]
+  .rodata            const    0x0800a024      0xc  LQ_ICM20689.o [1]
+  .text              ro code  0x0800a030      0xc  cstartup_M.o [6]
+  .rodata            const    0x0800a03c      0x4  xlocale_c.o [4]
+  .rodata            const    0x0800a040      0x0  zero_init3.o [6]
+  .rodata            const    0x0800a040      0x0  packbits_init_single.o [6]
+  Initializer bytes  const    0x0800a040     0x72  <for P2-1>
+                            - 0x0800a0b2   0x9f22
+
+"P2", part 1 of 3:                           0xa2
+  P2-1                        0x20000000     0xa2  <Init block>
+    .data            inited   0x20000000      0x4  LQ_Balance.o [1]
+    .data            inited   0x20000004     0x20  LQ_GPIO.o [1]
+    .data            inited   0x20000024      0x4  LQ_MotorServo.o [1]
+    .data            inited   0x20000028      0x4  LQ_MotorServo.o [1]
+    .data            inited   0x2000002c      0x4  system_mm32f327x.o [1]
+    .data            inited   0x20000030      0xc  LQ_MPU6050_DMP.o [3]
+    .data            inited   0x2000003c     0x2c  LQ_MPU6050_DMP.o [3]
+    .data            inited   0x20000068     0x38  xlocale_c.o [4]
+    .data            inited   0x200000a0      0x2  LQ_TIMER.o [1]
+                            - 0x200000a2     0xa2
+
+"P2", part 2 of 3:                        0x13e90
+  .bss               zero     0x200000a4   0x5820  LQ_CAMERA.o [1]
+  .bss               zero     0x200058c4   0x4b00  LQ_CAMERA.o [1]
+  .bss               zero     0x2000a3c4   0x4b00  LQ_CAMERA.o [1]
+  .bss               zero     0x2000eec4   0x2710  LQ_Balance.o [1]
+  .bss               zero     0x200115d4   0x2710  LQ_Balance.o [1]
+  .bss               zero     0x20013ce4     0x30  LQ_MotorServo.o [1]
+  .bss               zero     0x20013d14     0x30  LQ_MotorServo.o [1]
+  .bss               zero     0x20013d44     0x30  LQ_MotorServo.o [1]
+  .bss               zero     0x20013d74     0x30  LQ_MotorServo.o [1]
+  .bss               zero     0x20013da4     0x30  LQ_TIMER.o [1]
+  .bss               zero     0x20013dd4     0x30  LQ_TIMER.o [1]
+  .bss               zero     0x20013e04     0x30  LQ_TIMER.o [1]
+  .bss               zero     0x20013e34     0x30  LQ_TIMER.o [1]
+  .bss               zero     0x20013e64     0x30  LQ_TIMER.o [1]
+  .bss               zero     0x20013e94     0x24  LQ_PID.o [1]
+  .bss               zero     0x20013eb8      0x4  LQ_Balance.o [1]
+  .bss               zero     0x20013ebc      0x4  LQ_Balance.o [1]
+  .bss               zero     0x20013ec0      0x4  LQ_Balance.o [1]
+  .bss               zero     0x20013ec4      0x4  LQ_Balance.o [1]
+  .bss               zero     0x20013ec8      0x4  LQ_GPIO_KEY.o [1]
+  .bss               zero     0x20013ecc      0x4  LQ_GPIO_KEY.o [1]
+  .bss               zero     0x20013ed0      0x4  LQ_GPIO_KEY.o [1]
+  .bss               zero     0x20013ed4      0x4  LQ_GPIO_KEY.o [1]
+  .bss               zero     0x20013ed8      0x4  LQ_GPIO_KEY.o [1]
+  .bss               zero     0x20013edc      0x4  LQ_GPIO_KEY.o [1]
+  .bss               zero     0x20013ee0      0x4  LQ_GPIO_KEY.o [1]
+  .bss               zero     0x20013ee4      0x4  LQ_MT9V034.o [1]
+  .bss               zero     0x20013ee8      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013eec      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013ef0      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013ef4      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013ef8      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013efc      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013f00      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013f04      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013f08      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013f0c      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013f10      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013f14      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013f18      0x4  LQ_TIMER.o [1]
+  .bss               zero     0x20013f1c      0x4  xfail_s.o [4]
+  .bss               zero     0x20013f20      0x2  LQ_TIMER.o [1]
+  .bss               zero     0x20013f22      0x2  LQ_TIMER.o [1]
+  .bss               zero     0x20013f24      0x2  LQ_TIMER.o [1]
+  .bss               zero     0x20013f26      0x2  LQ_TIMER.o [1]
+  .bss               zero     0x20013f28      0x2  LQ_TIMER.o [1]
+  .bss               zero     0x20013f2a      0x2  LQ_TIMER.o [1]
+  .bss               zero     0x20013f2c      0x2  LQ_TIMER.o [1]
+  .bss               zero     0x20013f2e      0x2  LQ_TIMER.o [1]
+  .bss               zero     0x20013f30      0x2  LQ_TIMER.o [1]
+  .bss               zero     0x20013f32      0x1  LQ_Balance.o [1]
+  .bss               zero     0x20013f33      0x1  LQ_CAMERA.o [1]
+                            - 0x20013f34  0x13e90
+
+"P2", part 3 of 3:                          0x800
+  CSTACK                      0x20013f38    0x800  <Block>
+    CSTACK           uninit   0x20013f38    0x800  <Block tail>
+                            - 0x20014738    0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x13e90:
+          0x200000a4  0x13e90
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x72 (70% of destination):
+          0x0800a040     0x72
+    1 destination range, total size 0xa2:
+          0x20000000     0xa2
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                   ro code  ro data  rw data
+    ------                   -------  -------  -------
+C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj: [1]
+    LQ_Balance.o               1 424      122   20 021
+    LQ_CAMERA.o                2 928            60 961
+    LQ_DMA.o                     572
+    LQ_Encoder.o                 632
+    LQ_GPIO.o                    848       23       32
+    LQ_GPIO_KEY.o                280                28
+    LQ_GPIO_LED.o                616
+    LQ_ICM20689.o                524       12
+    LQ_MT9V034.o               1 814       72        4
+    LQ_MotorServo.o              440        5      200
+    LQ_PID.o                     516                36
+    LQ_PWM.o                     708
+    LQ_SOFTI2C.o                 904
+    LQ_SOFTSPI.o                 188
+    LQ_SYS.o                     216
+    LQ_TFT18.o                 1 988    4 252
+    LQ_TIMER.o                 2 020       34      312
+    LQ_UART.o                    424
+    SIR_BELL.o                    16
+    hal_dma.o                    288
+    hal_exti.o                   324
+    hal_gpio.o                   276
+    hal_misc.o                   108
+    hal_rcc.o                    132
+    hal_spi.o                    374
+    hal_tim.o                    916
+    hal_uart.o                    42
+    main.o                        32
+    startup_mm32f327x_iar.o      418
+    system_mm32f327x.o           872        3        4
+    --------------------------------------------------
+    Total:                    20 840    4 523   81 598
+
+command line: [2]
+    --------------------------------------------------
+    Total:
+
+LQ_MPU6050_DMP.a: [3]
+    LQ_MPU6050_DMP.o           6 740       40       56
+    --------------------------------------------------
+    Total:                     6 740       40       56
+
+dl7M_tlf.a: [4]
+    abort.o                        6
+    abs.o                          8
+    exit.o                         4
+    low_level_init.o               4
+    sprintf.o                     64
+    xfail_s.o                     68                 4
+    xlocale_c.o                   12       43       56
+    xprintflarge_nomb.o        3 074
+    xsprout.o                     10
+    --------------------------------------------------
+    Total:                     3 250       43       60
+
+m7M_tl.a: [5]
+    DblAdd.o                     376
+    DblCmpEq.o                    32
+    DblCmpLe.o                    46
+    DblDiv.o                     582
+    DblMul.o                     418
+    DblSub.o                     226
+    DblToFlt.o                   104
+    DblToU32.o                    40
+    FltAdd.o                     226
+    FltCmpGe.o                    36
+    FltCmpLe.o                    36
+    FltDiv.o                     252
+    FltMul.o                     216
+    FltSub.o                     128
+    FltToDbl.o                    72
+    FltToS32.o                    42
+    S32ToDbl.o                    34
+    S32ToFlt.o                    36
+    U32ToDbl.o                    26
+    U32ToFlt.o                    28
+    atan2_64.o                   274
+    atan64.o                     168
+    frexp.o                      112
+    iar_Atan64.o                 592
+    sqrt.o                       242
+    --------------------------------------------------
+    Total:                     4 344
+
+rt7M_tl.a: [6]
+    ABImemcpy.o                  166
+    ABImemset48.o                 58
+    I64DivMod.o                  558
+    I64DivZer.o                    2
+    cexit.o                       10
+    cmain.o                       30
+    cstartup_M.o                  12
+    data_init.o                   40
+    memchr.o                      88
+    memcmp.o                     104
+    packbits_init_single.o        56
+    strchr.o                      22
+    strlen.o                      54
+    zero_init3.o                  64
+    --------------------------------------------------
+    Total:                     1 264
+
+shb_l.a: [7]
+    exit.o                        20
+    --------------------------------------------------
+    Total:                        20
+
+    Gaps                          40        2
+    Linker created                         32    2 048
+------------------------------------------------------
+    Grand Total:              36 498    4 640   83 762
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08009ec4           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08009ee4           --   Gb  - Linker created -
+?main                   0x08009f35          Code  Gb  cmain.o [6]
+ANGLE                   0x20013f08     0x4  Data  Gb  LQ_TIMER.o [1]
+ANGLE_OUT               0x20013ee8     0x4  Data  Gb  LQ_TIMER.o [1]
+Angle_PID               0x20013dd4    0x30  Data  Gb  LQ_TIMER.o [1]
+AutoCalPllFactor        0x0800994d    0x56  Code  Gb  system_mm32f327x.o [1]
+BALANCE_OUT             0x20013eec     0x4  Data  Gb  LQ_TIMER.o [1]
+BalDir_PID              0x20013e64    0x30  Data  Gb  LQ_TIMER.o [1]
+BalDir_out              0x20013f04     0x4  Data  Gb  LQ_TIMER.o [1]
+BalDirgyro_PID          0x20013e34    0x30  Data  Gb  LQ_TIMER.o [1]
+BalDirgyro_out          0x20013ef4     0x4  Data  Gb  LQ_TIMER.o [1]
+BalMotorCtrl            0x080088ff    0xa8  Code  Gb  LQ_MotorServo.o [1]
+BalSpeed_PID            0x20013e04    0x30  Data  Gb  LQ_TIMER.o [1]
+Balance_CAR             0x08008d85   0x15a  Code  Gb  LQ_Balance.o [1]
+Bin_Image               0x2000a3c4  0x4b00  Data  Gb  LQ_CAMERA.o [1]
+Bj_pid                  0x20013e94    0x24  Data  Gb  LQ_PID.o [1]
+CAMERA_Init             0x08003725    0x9a  Code  Gb  LQ_CAMERA.o [1]
+CSTACK$$Base            0x20013f38           --   Gb  - Linker created -
+CSTACK$$Limit           0x20014738           --   Gb  - Linker created -
+Camera_Flag             0x20013f33     0x1  Data  Gb  LQ_CAMERA.o [1]
+DELAY_xUs               0x080099a3    0x38  Code  Lc  system_mm32f327x.o [1]
+DMA1_Channel1_IRQHandler
+                        0x08004bdd    0x1c  Code  Gb  LQ_DMA.o [1]
+DMA1_Channel2_IRQHandler
+                        0x08004bf9    0x14  Code  Gb  LQ_DMA.o [1]
+DMA1_Channel3_IRQHandler
+                        0x08004c0d    0x18  Code  Gb  LQ_DMA.o [1]
+DMA1_Channel4_IRQHandler
+                        0x08004c25    0x1c  Code  Gb  LQ_DMA.o [1]
+DMA1_Channel5_IRQHandler
+                        0x08004c41    0x18  Code  Gb  LQ_DMA.o [1]
+DMA_CameraInitConfig    0x08004c59    0x86  Code  Gb  LQ_DMA.o [1]
+DMA_CameraTriggerTimerInit
+                        0x08004cdf   0x130  Code  Gb  LQ_DMA.o [1]
+DMA_ClearFlag           0x08005859    0x12  Code  Gb  hal_dma.o [1]
+DMA_Cmd                 0x0800582f     0xe  Code  Gb  hal_dma.o [1]
+DMA_DeInit              0x0800578d    0x58  Code  Gb  hal_dma.o [1]
+DMA_GetITStatus         0x0800586b    0x2a  Code  Gb  hal_dma.o [1]
+DMA_ITConfig            0x0800583d    0x1c  Code  Gb  hal_dma.o [1]
+DMA_Init                0x080057e5    0x4a  Code  Gb  hal_dma.o [1]
+Dir_Error               0x20013ef8     0x4  Data  Gb  LQ_TIMER.o [1]
+ECPULSE                 0x20013f24     0x2  Data  Gb  LQ_TIMER.o [1]
+ECPULSE1                0x20013f20     0x2  Data  Gb  LQ_TIMER.o [1]
+ECPULSE2                0x20013f22     0x2  Data  Gb  LQ_TIMER.o [1]
+EXTI0_IRQHandler        0x08002c79     0xa  Code  Gb  LQ_GPIO.o [1]
+EXTI1_IRQHandler        0x08002c83    0x16  Code  Gb  LQ_GPIO.o [1]
+EXTI2_IRQHandler        0x08002c99    0x12  Code  Gb  LQ_GPIO.o [1]
+EXTI4_IRQHandler        0x08002cab     0xa  Code  Gb  LQ_GPIO.o [1]
+EXTI9_5_IRQHandler      0x08002cb5    0x48  Code  Gb  LQ_GPIO.o [1]
+EXTI_ClearFlag          0x080036b3     0x6  Code  Gb  hal_exti.o [1]
+EXTI_GetITStatus        0x080036b9    0x1a  Code  Gb  hal_exti.o [1]
+EXTI_Init               0x080035f9    0xba  Code  Gb  hal_exti.o [1]
+EXTI_LineConfig         0x080035a9    0x50  Code  Gb  hal_exti.o [1]
+EncInit                 0x08008243   0x16c  Code  Gb  LQ_Encoder.o [1]
+Font_code16             0x08006d9c   0xbe0  Data  Gb  LQ_TFT18.o [1]
+Font_code8              0x0800942c   0x4bc  Data  Gb  LQ_TFT18.o [1]
+GPIO_Init               0x08002fc9    0x98  Code  Gb  hal_gpio.o [1]
+GPIO_KEY_Init           0x08009315    0x4c  Code  Gb  LQ_GPIO_KEY.o [1]
+GPIO_LED_Init           0x0800425d    0x34  Code  Gb  LQ_GPIO_LED.o [1]
+GPIO_PinAFConfig        0x080030b3    0x2a  Code  Gb  hal_gpio.o [1]
+GPIO_ReadInputDataBit   0x08003071    0x12  Code  Gb  hal_gpio.o [1]
+GPIO_ReadOutputDataBit  0x08003083    0x12  Code  Gb  hal_gpio.o [1]
+GPIO_ResetBits          0x0800309b     0x6  Code  Gb  hal_gpio.o [1]
+GPIO_SetBits            0x08003095     0x6  Code  Gb  hal_gpio.o [1]
+GPIO_StructInit         0x08003061    0x10  Code  Gb  hal_gpio.o [1]
+GPIO_WriteBit           0x080030a1    0x12  Code  Gb  hal_gpio.o [1]
+GetOSTU                 0x080038f5   0x1e8  Code  Gb  LQ_CAMERA.o [1]
+Get_Bin_Image           0x0800380f    0xe6  Code  Gb  LQ_CAMERA.o [1]
+Get_Use_Image           0x080037bf    0x50  Code  Gb  LQ_CAMERA.o [1]
+Gyro_PID                0x20013da4    0x30  Data  Gb  LQ_TIMER.o [1]
+ICM20689_Init           0x080083d9    0xa2  Code  Gb  LQ_ICM20689.o [1]
+ICM_Get_Raw_data        0x08008497    0x7c  Code  Gb  LQ_ICM20689.o [1]
+ICM_Read_Byte           0x08008527    0x18  Code  Gb  LQ_ICM20689.o [1]
+ICM_Read_Len            0x08008483    0x14  Code  Gb  LQ_ICM20689.o [1]
+ICM_SPI_Init            0x0800847b     0x8  Code  Gb  LQ_ICM20689.o [1]
+ICM_Set_Accel_Fsr       0x0800854f    0x10  Code  Gb  LQ_ICM20689.o [1]
+ICM_Set_Gyro_Fsr        0x0800853f    0x10  Code  Gb  LQ_ICM20689.o [1]
+ICM_Set_LPF             0x0800855f    0x42  Code  Gb  LQ_ICM20689.o [1]
+ICM_Set_Rate            0x080085a1    0x3e  Code  Gb  LQ_ICM20689.o [1]
+ICM_Write_Byte          0x08008513    0x14  Code  Gb  LQ_ICM20689.o [1]
+Image_Data              0x200000a4  0x5820  Data  Gb  LQ_CAMERA.o [1]
+Image_Use               0x200058c4  0x4b00  Data  Gb  LQ_CAMERA.o [1]
+KEY_Read_All            0x08009361    0xae  Code  Gb  LQ_GPIO_KEY.o [1]
+KEY_Read_All::Ls1       0x20013ed8     0x4  Data  Lc  LQ_GPIO_KEY.o [1]
+KEY_Read_All::Ls2       0x20013edc     0x4  Data  Lc  LQ_GPIO_KEY.o [1]
+KEY_Read_All::Ls3       0x20013ee0     0x4  Data  Lc  LQ_GPIO_KEY.o [1]
+KEY_Read_All::s1        0x20013ecc     0x4  Data  Lc  LQ_GPIO_KEY.o [1]
+KEY_Read_All::s2        0x20013ed0     0x4  Data  Lc  LQ_GPIO_KEY.o [1]
+KEY_Read_All::s3        0x20013ed4     0x4  Data  Lc  LQ_GPIO_KEY.o [1]
+LED_Ctrl                0x08004291   0x22a  Code  Gb  LQ_GPIO_LED.o [1]
+LQ_DMP_Init             0x080001d1   0x6b8  Code  Gb  LQ_MPU6050_DMP.o [3]
+LQ_DMP_Read             0x08000c61   0x1c4  Code  Gb  LQ_MPU6050_DMP.o [3]
+LQ_I2C_Read             0x08001f03    0x6a  Code  Gb  LQ_SOFTI2C.o [1]
+LQ_I2C_Write            0x08001ebd    0x46  Code  Gb  LQ_SOFTI2C.o [1]
+LQ_Init3227             0x08002025    0x20  Code  Gb  LQ_SYS.o [1]
+LoadInt                 0x08005f4b    0x7a  Code  Lc  xprintflarge_nomb.o [4]
+MT9V034_DMA_CLS         0x08003709    0x1c  Code  Gb  LQ_CAMERA.o [1]
+MT9V034_DMA_START       0x080036ed    0x1c  Code  Gb  LQ_CAMERA.o [1]
+MT9V034_Init            0x080044c5   0x110  Code  Gb  LQ_MT9V034.o [1]
+MT9V034_SCL_Out         0x080047fb    0x28  Code  Gb  LQ_MT9V034.o [1]
+MT9V034_SDA_In          0x0800484b    0x28  Code  Gb  LQ_MT9V034.o [1]
+MT9V034_SDA_Out         0x08004823    0x28  Code  Gb  LQ_MT9V034.o [1]
+MT9V034_SetAutoExposure
+                        0x08004765    0x84  Code  Gb  LQ_MT9V034.o [1]
+MT9V034_SetFrameRate    0x080045d5   0x102  Code  Gb  LQ_MT9V034.o [1]
+MT9V034_SetFrameResolution
+                        0x080046d7    0x8e  Code  Gb  LQ_MT9V034.o [1]
+MTV_IICWriteReg16       0x080047e9    0x12  Code  Gb  LQ_MT9V034.o [1]
+MotorDuty1              0x20000024     0x4  Data  Gb  LQ_MotorServo.o [1]
+MotorDuty2              0x20000028     0x4  Data  Gb  LQ_MotorServo.o [1]
+MotorInit               0x0800880d    0xf2  Code  Gb  LQ_MotorServo.o [1]
+NVIC_Init               0x080030dd    0x5c  Code  Gb  hal_misc.o [1]
+PID_init                0x08008691    0x38  Code  Gb  LQ_PID.o [1]
+PID_realize             0x080086c9   0x10a  Code  Gb  LQ_PID.o [1]
+PIN_AFIO_Init           0x08002d8b   0x12c  Code  Gb  LQ_GPIO.o [1]
+PIN_Exti                0x08002ed7    0xe8  Code  Gb  LQ_GPIO.o [1]
+PIN_InitConfig          0x08002cfd    0x8e  Code  Gb  LQ_GPIO.o [1]
+PIN_Read                0x08002eb7    0x20  Code  Gb  LQ_GPIO.o [1]
+PORTX                   0x20000004    0x20  Data  Gb  LQ_GPIO.o [1]
+PWM_InitConfig          0x08008ad9   0x24a  Code  Gb  LQ_PWM.o [1]
+PWM_PinConfig           0x08008ac1    0x18  Code  Gb  LQ_PWM.o [1]
+PWM_Set_Duty            0x08008d23    0x5a  Code  Gb  LQ_PWM.o [1]
+PidInit                 0x08008607    0x32  Code  Gb  LQ_PID.o [1]
+PidLocCtrl              0x08008639    0x58  Code  Gb  LQ_PID.o [1]
+Pitch                   0x20000040     0x4  Data  Gb  LQ_MPU6050_DMP.o [3]
+RCC_AHBPeriphClockCmd   0x08003149    0x28  Code  Gb  hal_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x08003199    0x28  Code  Gb  hal_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08003171    0x28  Code  Gb  hal_rcc.o [1]
+Read_DirEncoder         0x08008161    0xe2  Code  Gb  LQ_Encoder.o [1]
+Region$$Table$$Base     0x08009ec4           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08009ee4           --   Gb  - Linker created -
+Roll                    0x20000044     0x4  Data  Gb  LQ_MPU6050_DMP.o [3]
+SCCB_Ack                0x08004a2f    0x40  Code  Lc  LQ_MT9V034.o [1]
+SCCB_Init               0x08004873    0x3c  Code  Gb  LQ_MT9V034.o [1]
+SCCB_NAck               0x08004a6f    0x44  Code  Lc  LQ_MT9V034.o [1]
+SCCB_ReadByte           0x080049cf    0x60  Code  Gb  LQ_MT9V034.o [1]
+SCCB_RegRead            0x08004b7d    0x5e  Code  Gb  LQ_MT9V034.o [1]
+SCCB_RegWrite           0x08004b15    0x68  Code  Gb  LQ_MT9V034.o [1]
+SCCB_SendByte           0x0800493f    0x90  Code  Gb  LQ_MT9V034.o [1]
+SCCB_Star               0x080048c1    0x44  Code  Gb  LQ_MT9V034.o [1]
+SCCB_Stop               0x08004905    0x3a  Code  Gb  LQ_MT9V034.o [1]
+SCCB_Wait               0x080048b1    0x10  Code  Gb  LQ_MT9V034.o [1]
+SIR_BELL_Init           0x08009f25    0x10  Code  Gb  SIR_BELL.o [1]
+SOFT_IIC_Ack            0x08001cc1    0x44  Code  Gb  LQ_SOFTI2C.o [1]
+SOFT_IIC_Init           0x08001bef    0x34  Code  Gb  LQ_SOFTI2C.o [1]
+SOFT_IIC_NAck           0x08001d05    0x4a  Code  Gb  LQ_SOFTI2C.o [1]
+SOFT_IIC_Read_Byte      0x08001e39    0x80  Code  Gb  LQ_SOFTI2C.o [1]
+SOFT_IIC_Send_Byte      0x08001dbf    0x7a  Code  Gb  LQ_SOFTI2C.o [1]
+SOFT_IIC_Start          0x08001c23    0x54  Code  Gb  LQ_SOFTI2C.o [1]
+SOFT_IIC_Stop           0x08001c77    0x4a  Code  Gb  LQ_SOFTI2C.o [1]
+SOFT_IIC_Wait_Ack       0x08001d4f    0x70  Code  Gb  LQ_SOFTI2C.o [1]
+SOFT_IIC_delay          0x08001be5     0xa  Code  Gb  LQ_SOFTI2C.o [1]
+SPEED_OUT               0x20013ef0     0x4  Data  Gb  LQ_TIMER.o [1]
+SPI_BiDirectionalLineConfig
+                        0x08005d41    0x3c  Code  Gb  hal_spi.o [1]
+SPI_Cmd                 0x08005cf1    0x1a  Code  Gb  hal_spi.o [1]
+SPI_Init                0x08005c41    0x8e  Code  Gb  hal_spi.o [1]
+SPI_SendData            0x08005d0d    0x34  Code  Gb  hal_spi.o [1]
+SPI_StructInit          0x08005ccf    0x22  Code  Gb  hal_spi.o [1]
+Seek_Beacon             0x080090df   0x13a  Code  Gb  LQ_Balance.o [1]
+SetSysClock             0x080099db    0x2c  Code  Lc  system_mm32f327x.o [1]
+SetSysClockToXX         0x08009a09   0x1ee  Code  Lc  system_mm32f327x.o [1]
+Soft_SPI_Init           0x08008a05    0x34  Code  Gb  LQ_SOFTSPI.o [1]
+Soft_SPI_ReadWriteNbyte
+                        0x08008a39    0x82  Code  Gb  LQ_SOFTSPI.o [1]
+Spi_Gpio_Config         0x08005029    0xca  Code  Gb  LQ_TFT18.o [1]
+Spi_Hard_Init           0x08004fa9    0x80  Code  Gb  LQ_TFT18.o [1]
+SystemCoreClock         0x2000002c     0x4  Data  Gb  system_mm32f327x.o [1]
+SystemInit              0x080098e9    0x64  Code  Gb  system_mm32f327x.o [1]
+TFTSPI_Addr_Rst         0x080053db    0x46  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_BinRoad          0x080056eb    0x44  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_CLS              0x08005421    0x26  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_Init             0x080050f3   0x1f0  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_P6X8             0x08005447    0x8a  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_P6X8Str          0x080055e9    0x3a  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_P8X16            0x08005567    0x82  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_P8X16Str         0x0800565d    0x3a  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_P8X8             0x080054d1    0x96  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_P8X8Str          0x08005623    0x3a  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_Road             0x08005697    0x54  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_Set_Pos          0x08005385    0x56  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_Write_Byte       0x0800531f    0x30  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_Write_Cmd        0x080052e5    0x3a  Code  Gb  LQ_TFT18.o [1]
+TFTSPI_Write_Word       0x0800534f    0x36  Code  Gb  LQ_TFT18.o [1]
+TFT_show                0x08008edf   0x200  Code  Gb  LQ_Balance.o [1]
+TFT_show::Now_KeyValue  0x20013ec4     0x4  Data  Lc  LQ_Balance.o [1]
+TFT_show::last_KeyValue
+                        0x20013ec0     0x4  Data  Lc  LQ_Balance.o [1]
+TIM1_UP_IRQHandler      0x0800797d    0x1c  Code  Gb  LQ_TIMER.o [1]
+TIM2_IRQHandler         0x08007999    0x24  Code  Gb  LQ_TIMER.o [1]
+TIM3_IRQHandler         0x080079bd    0x24  Code  Gb  LQ_TIMER.o [1]
+TIM4_IRQHandler         0x080079e1    0x24  Code  Gb  LQ_TIMER.o [1]
+TIM5_IRQHandler         0x08007a05    0x24  Code  Gb  LQ_TIMER.o [1]
+TIM6_IRQHandler         0x08007a29   0x344  Code  Gb  LQ_TIMER.o [1]
+TIM7_IRQHandler         0x08007d6d    0x22  Code  Gb  LQ_TIMER.o [1]
+TIM8_UP_IRQHandler      0x08007d8f    0x24  Code  Gb  LQ_TIMER.o [1]
+TIMER_InitConfig        0x08007db3   0x192  Code  Gb  LQ_TIMER.o [1]
+TIMERx                  0x08009ee4    0x20  Data  Gb  LQ_TIMER.o [1]
+TIM_ARRPreloadConfig    0x08005b95    0x1a  Code  Gb  hal_tim.o [1]
+TIM_ClearITPendingBit   0x08005c1d     0xa  Code  Gb  hal_tim.o [1]
+TIM_Cmd                 0x08005a9d    0x1a  Code  Gb  hal_tim.o [1]
+TIM_CtrlPWMOutputs      0x08005ab7    0x1a  Code  Gb  hal_tim.o [1]
+TIM_DMACmd              0x08005ae9    0x1c  Code  Gb  hal_tim.o [1]
+TIM_ETRClockMode1Config
+                        0x08005b39    0x1a  Code  Gb  hal_tim.o [1]
+TIM_ETRConfig           0x08005b05    0x34  Code  Gb  hal_tim.o [1]
+TIM_EncoderInterfaceConfig
+                        0x08005b61    0x34  Code  Gb  hal_tim.o [1]
+TIM_GetITStatus         0x08005c07    0x16  Code  Gb  hal_tim.o [1]
+TIM_ITConfig            0x08005ad1    0x18  Code  Gb  hal_tim.o [1]
+TIM_OC1Init             0x0800591f    0x5a  Code  Gb  hal_tim.o [1]
+TIM_OC1PreloadConfig    0x08005baf     0xe  Code  Gb  hal_tim.o [1]
+TIM_OC2Init             0x08005979    0x62  Code  Gb  hal_tim.o [1]
+TIM_OC2PreloadConfig    0x08005bbd    0x10  Code  Gb  hal_tim.o [1]
+TIM_OC3Init             0x080059db    0x60  Code  Gb  hal_tim.o [1]
+TIM_OC3PreloadConfig    0x08005bcd     0xe  Code  Gb  hal_tim.o [1]
+TIM_OC4Init             0x08005a3b    0x4a  Code  Gb  hal_tim.o [1]
+TIM_OC4PreloadConfig    0x08005bdb    0x10  Code  Gb  hal_tim.o [1]
+TIM_SelectInputTrigger  0x08005b53     0xe  Code  Gb  hal_tim.o [1]
+TIM_SelectMasterSlaveMode
+                        0x08005bf9     0xe  Code  Gb  hal_tim.o [1]
+TIM_SelectSlaveMode     0x08005beb     0xe  Code  Gb  hal_tim.o [1]
+TIM_TimeBaseInit        0x080058ad    0x72  Code  Gb  hal_tim.o [1]
+TIM_TimeBaseStructInit  0x08005a85    0x18  Code  Gb  hal_tim.o [1]
+UART1_IRQHandler        0x08009c51    0x30  Code  Gb  LQ_UART.o [1]
+UART2_IRQHandler        0x08009c81    0x30  Code  Gb  LQ_UART.o [1]
+UART3_IRQHandler        0x08009cb1    0x30  Code  Gb  LQ_UART.o [1]
+UART4_IRQHandler        0x08009ce1    0x30  Code  Gb  LQ_UART.o [1]
+UART5_IRQHandler        0x08009d11    0x28  Code  Gb  LQ_UART.o [1]
+UART6_IRQHandler        0x08009d39    0x28  Code  Gb  LQ_UART.o [1]
+UART7_IRQHandler        0x08009d61    0x28  Code  Gb  LQ_UART.o [1]
+UART8_IRQHandler        0x08009d89    0x28  Code  Gb  LQ_UART.o [1]
+UART_ClearITPendingBit  0x08009e1d     0x6  Code  Gb  hal_uart.o [1]
+UART_GetChar            0x08009dcd     0xa  Code  Gb  LQ_UART.o [1]
+UART_GetFlagStatus      0x08009e0b    0x12  Code  Gb  hal_uart.o [1]
+UART_PutChar            0x08009db1    0x1c  Code  Gb  LQ_UART.o [1]
+UART_ReceiveData        0x08009e03     0x8  Code  Gb  hal_uart.o [1]
+UART_SendData           0x08009df9     0xa  Code  Gb  hal_uart.o [1]
+_GenldLargeNoMb         0x080066ed   0x23a  Code  Lc  xprintflarge_nomb.o [4]
+_LdtobLargeNoMb         0x08006485   0x240  Code  Lc  xprintflarge_nomb.o [4]
+_LitobLargeNoMb         0x0800632d   0x112  Code  Lc  xprintflarge_nomb.o [4]
+_Locale_lconv           0x20000068    0x38  Data  Lc  xlocale_c.o [4]
+_PrintfLargeNoMb        0x08005db9   0x18c  Code  Gb  xprintflarge_nomb.o [4]
+_PutcharsLargeNoMb      0x08006927    0x2e  Code  Lc  xprintflarge_nomb.o [4]
+_PutfldLargeNoMb        0x08005fc5   0x25c  Code  Lc  xprintflarge_nomb.o [4]
+_PuttxtLargeNoMb        0x08006221   0x10c  Code  Lc  xprintflarge_nomb.o [4]
+_SProut                 0x080020e7     0xa  Code  Gb  xsprout.o [4]
+__NVIC_SetPriority      0x08001f6d    0x22  Code  Lc  LQ_SYS.o [1]
+__Vectors               0x08000000           --   Gb  startup_mm32f327x_iar.o [1]
+__Vectors_End           0x08000190          Data  Gb  startup_mm32f327x_iar.o [1]
+__Vectors_Size {Abs}    0x00000190           --   Gb  startup_mm32f327x_iar.o [1]
+__aeabi_cdcmpeq         0x08002671          Code  Gb  DblCmpEq.o [5]
+__aeabi_cdcmple         0x08002919          Code  Gb  DblCmpLe.o [5]
+__aeabi_cfcmple         0x08004f55          Code  Gb  FltCmpLe.o [5]
+__aeabi_cfrcmple        0x080087e9          Code  Gb  FltCmpGe.o [5]
+__aeabi_d2f             0x08002405          Code  Gb  DblToFlt.o [5]
+__aeabi_d2uiz           0x08006d49          Code  Gb  DblToU32.o [5]
+__aeabi_dadd            0x080031cd          Code  Gb  DblAdd.o [5]
+__aeabi_ddiv            0x080021bd          Code  Gb  DblDiv.o [5]
+__aeabi_dmul            0x08002691          Code  Gb  DblMul.o [5]
+__aeabi_dsub            0x08002835          Code  Gb  DblSub.o [5]
+__aeabi_f2d             0x08002629          Code  Gb  FltToDbl.o [5]
+__aeabi_f2iz            0x08005761          Code  Gb  FltToS32.o [5]
+__aeabi_fadd            0x08002545          Code  Gb  FltAdd.o [5]
+__aeabi_fdiv            0x08004e35          Code  Gb  FltDiv.o [5]
+__aeabi_fmul            0x0800246d          Code  Gb  FltMul.o [5]
+__aeabi_fsub            0x08002ae5          Code  Gb  FltSub.o [5]
+__aeabi_i2d             0x08002199          Code  Gb  S32ToDbl.o [5]
+__aeabi_i2f             0x08004f31          Code  Gb  S32ToFlt.o [5]
+__aeabi_ldiv0           0x08006d85          Code  Gb  I64DivZer.o [6]
+__aeabi_memcpy          0x080020f1          Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy4         0x08002111          Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy8         0x08002111          Code  Gb  ABImemcpy.o [6]
+__aeabi_memset4         0x080020ad          Code  Gb  ABImemset48.o [6]
+__aeabi_memset8         0x080020ad          Code  Gb  ABImemset48.o [6]
+__aeabi_ui2d            0x08005745          Code  Gb  U32ToDbl.o [5]
+__aeabi_ui2f            0x08004e19          Code  Gb  U32ToFlt.o [5]
+__aeabi_uldivmod        0x08006aa9          Code  Gb  I64DivMod.o [6]
+__cmain                 0x08009f35          Code  Gb  cmain.o [6]
+__exit                  0x08006d89    0x14  Code  Gb  exit.o [7]
+__iar_Atan64            0x08003359   0x1b6  Code  Gb  iar_Atan64.o [5]
+__iar_Fail_s            0x080069d5    0x1e  Code  Gb  xfail_s.o [4]
+__iar_Memchr            0x08006a51          Code  Gb  memchr.o [6]
+__iar_Memset4_word      0x080020b5          Code  Gb  ABImemset48.o [6]
+__iar_Memset8_word      0x080020b5          Code  Gb  ABImemset48.o [6]
+__iar_Strchr            0x080069bd          Code  Gb  strchr.o [6]
+__iar_atan2_64          0x08002b65   0x106  Code  Gb  atan2_64.o [5]
+__iar_atan64            0x08002a3d    0xa8  Code  Gb  atan64.o [5]
+__iar_dadd              0x08002845          Code  Gb  DblSub.o [5]
+__iar_data_init3        0x08009e9d    0x28  Code  Gb  data_init.o [6]
+__iar_dsub              0x080031dd          Code  Gb  DblAdd.o [5]
+__iar_dsubStart         0x080031ef          Code  Gb  DblAdd.o [5]
+__iar_fadd              0x08002af1          Code  Gb  FltSub.o [5]
+__iar_frexp             0x08006ce5          Code  Gb  frexp.o [5]
+__iar_frexp64           0x08006cd9          Code  Gb  frexp.o [5]
+__iar_frexpl            0x08006ce5          Code  Gb  frexp.o [5]
+__iar_fsub              0x08002551          Code  Gb  FltAdd.o [5]
+__iar_fsubStart         0x08002561          Code  Gb  FltAdd.o [5]
+__iar_packbits_init_single3
+                        0x08009e63    0x38  Code  Gb  packbits_init_single.o [6]
+__iar_program_start     0x0800a031          Code  Gb  cstartup_M.o [6]
+__iar_sqrt64            0x08002949          Code  Gb  sqrt.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_zero_init3        0x08009e23    0x40  Code  Gb  zero_init3.o [6]
+__low_level_init        0x08009f53     0x4  Code  Gb  low_level_init.o [4]
+__vector_table          0x08000000          Data  Gb  startup_mm32f327x_iar.o [1]
+__vector_table_0x1c     0x0800001c          Data  Gb  startup_mm32f327x_iar.o [1]
+_call_main              0x08009f41          Code  Gb  cmain.o [6]
+_exit                   0x08009f5d          Code  Gb  cexit.o [6]
+_main                   0x08009f4f          Code  Gb  cmain.o [6]
+a                       0x08003568    0x40  Data  Lc  iar_Atan64.o [5]
+aacx                    0x20013f26     0x2  Data  Gb  LQ_TIMER.o [1]
+aacy                    0x20013f28     0x2  Data  Gb  LQ_TIMER.o [1]
+aacz                    0x20013f2a     0x2  Data  Gb  LQ_TIMER.o [1]
+abort                   0x08006d7d     0x6  Code  Gb  abort.o [4]
+abs                     0x08004f79     0x8  Code  Gb  abs.o [4]
+accel                   0x20000060     0x8  Data  Gb  LQ_MPU6050_DMP.o [3]
+atan                    0x08002a3d    0xa8  Code  Gb  atan64.o [5]
+atan2                   0x08002b65   0x106  Code  Gb  atan2_64.o [5]
+atan2l                  0x08002b65   0x106  Code  Gb  atan2_64.o [5]
+atanl                   0x08002a3d    0xa8  Code  Gb  atan64.o [5]
+bell_flag               0x20000000     0x4  Data  Gb  LQ_Balance.o [1]
+ccdi2cGPIO_InitStructure
+                        0x20013ee4     0x4  Data  Gb  LQ_MT9V034.o [1]
+constrain_float         0x080085e5    0x22  Code  Gb  LQ_PID.o [1]
+count_10ms              0x20013f14     0x4  Data  Gb  LQ_TIMER.o [1]
+count_20ms              0x20013f18     0x4  Data  Gb  LQ_TIMER.o [1]
+count_5ms               0x20013f10     0x4  Data  Gb  LQ_TIMER.o [1]
+count_LED               0x20013f0c     0x4  Data  Gb  LQ_TIMER.o [1]
+delayms                 0x08001fd3    0x1a  Code  Gb  LQ_SYS.o [1]
+delayus                 0x08001f8f    0x44  Code  Gb  LQ_SYS.o [1]
+dmp_memory              0x08000fec   0xbf8  Data  Lc  LQ_MPU6050_DMP.o [3]
+dmp_read_fifo           0x08000e2b   0x1aa  Code  Gb  LQ_MPU6050_DMP.o [3]
+dmp_set_orientation     0x0800095d   0x16e  Code  Gb  LQ_MPU6050_DMP.o [3]
+dotcnt                  0x20013f32     0x1  Data  Gb  LQ_Balance.o [1]
+dothang                 0x200115d4  0x2710  Data  Gb  LQ_Balance.o [1]
+dotlie                  0x2000eec4  0x2710  Data  Gb  LQ_Balance.o [1]
+exSPI_DataEdgeAdjust    0x08005d7d    0x3a  Code  Gb  hal_spi.o [1]
+exit                    0x08009f57     0x4  Code  Gb  exit.o [4]
+eye_show                0x08009219    0x46  Code  Gb  LQ_Balance.o [1]
+frexp                   0x08006cd9          Code  Gb  frexp.o [5]
+frexpl                  0x08006cd9          Code  Gb  frexp.o [5]
+gyro                    0x20000058     0x8  Data  Gb  LQ_MPU6050_DMP.o [3]
+gyro_orientation        0x20000030     0xc  Data  Lc  LQ_MPU6050_DMP.o [3]
+gyrox                   0x20013f2c     0x2  Data  Gb  LQ_TIMER.o [1]
+gyroy                   0x20013f2e     0x2  Data  Gb  LQ_TIMER.o [1]
+gyroz                   0x20013f30     0x2  Data  Gb  LQ_TIMER.o [1]
+inv_row_2_scale         0x08000191    0x40  Code  Gb  LQ_MPU6050_DMP.o [3]
+key_flag                0x20013ec8     0x4  Data  Lc  LQ_GPIO_KEY.o [1]
+kongzhi_2               0x08007f45   0x148  Code  Gb  LQ_TIMER.o [1]
+last_error              0x20013efc     0x4  Data  Gb  LQ_TIMER.o [1]
+last_hang               0x20013f00     0x4  Data  Gb  LQ_TIMER.o [1]
+localeconv              0x08006d71     0x4  Code  Gb  xlocale_c.o [4]
+lq_sobel                0x08003add   0x336  Code  Gb  LQ_CAMERA.o [1]
+lq_sobelAutoThreshold   0x08003e13   0x424  Code  Gb  LQ_CAMERA.o [1]
+lq_tft_delayms          0x08004f81    0x28  Code  Lc  LQ_TFT18.o [1]
+main                    0x08009f05    0x20  Code  Gb  main.o [1]
+memchr                  0x08006a51          Code  Gb  memchr.o [6]
+memcmp                  0x08002045          Code  Gb  memcmp.o [6]
+mpu_read_mem            0x08000b0b    0x40  Code  Gb  LQ_MPU6050_DMP.o [3]
+mpu_reset_fifo_in_dmp_enable_feature
+                        0x08000b4b    0x8c  Code  Gb  LQ_MPU6050_DMP.o [3]
+mpu_reset_fifo_in_mpu_set_dmp_state
+                        0x08000bd7    0x8a  Code  Gb  LQ_MPU6050_DMP.o [3]
+mpu_set_accel_fsr       0x08000899    0x3e  Code  Gb  LQ_MPU6050_DMP.o [3]
+mpu_set_lpf             0x080008d7    0x42  Code  Gb  LQ_MPU6050_DMP.o [3]
+mpu_set_sample_rate     0x08000919    0x44  Code  Gb  LQ_MPU6050_DMP.o [3]
+mpu_write_mem           0x08000acb    0x40  Code  Gb  LQ_MPU6050_DMP.o [3]
+nvic_init               0x08001fed    0x1c  Code  Gb  LQ_SYS.o [1]
+pid1                    0x20013ce4    0x30  Data  Gb  LQ_MotorServo.o [1]
+pid2                    0x20013d14    0x30  Data  Gb  LQ_MotorServo.o [1]
+pid3                    0x20013d44    0x30  Data  Gb  LQ_MotorServo.o [1]
+pid4                    0x20013d74    0x30  Data  Gb  LQ_MotorServo.o [1]
+q0                      0x20000048     0x4  Data  Gb  LQ_MPU6050_DMP.o [3]
+q1                      0x2000004c     0x4  Data  Gb  LQ_MPU6050_DMP.o [3]
+q2                      0x20000050     0x4  Data  Gb  LQ_MPU6050_DMP.o [3]
+q3                      0x20000054     0x4  Data  Gb  LQ_MPU6050_DMP.o [3]
+regs_end                0x0800088c     0xc  Data  Gb  LQ_MPU6050_DMP.o [3]
+scale                   0x0800643f    0x46  Code  Lc  xprintflarge_nomb.o [4]
+sec_hand                0x20013f1c     0x4  Data  Lc  xfail_s.o [4]
+sensors                 0x2000003c     0x2  Data  Gb  LQ_MPU6050_DMP.o [3]
+sprintf                 0x080089c5    0x40  Code  Gb  sprintf.o [4]
+sqrt                    0x08002949          Code  Gb  sqrt.o [5]
+sqrtl                   0x08002949          Code  Gb  sqrt.o [5]
+strchr                  0x080069bd          Code  Gb  strchr.o [6]
+strlen                  0x08006a19          Code  Gb  strlen.o [6]
+sumhang                 0x20013ebc     0x4  Data  Gb  LQ_Balance.o [1]
+sumlie                  0x20013eb8     0x4  Data  Gb  LQ_Balance.o [1]
+targetSpeed1            0x200000a0     0x2  Data  Gb  LQ_TIMER.o [1]
+
+
+[1] = C:\Users\Administrator\Desktop\7.19Íí\IARprj\Debug\Obj
+[2] = command line
+[3] = LQ_MPU6050_DMP.a
+[4] = dl7M_tlf.a
+[5] = m7M_tl.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  36 498 bytes of readonly  code memory
+   4 640 bytes of readonly  data memory
+  83 762 bytes of readwrite data memory
+
+Errors: none
+Warnings: 1

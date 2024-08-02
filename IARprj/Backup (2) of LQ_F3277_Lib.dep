@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3598911244</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_FLASH.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_comp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_wwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_pwr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_Inductor.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_UART.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_MotorServo.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_GPIO.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_I2C.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_Encoder.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_bkp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_SOFTSPI.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_crc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_GPIO_LED.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_ver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_ImageProcess.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_exti.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_ICM20689.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_SOFTI2C.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_crs.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_can.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_OLED096.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_PID.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_SYS.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_MT9V034.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_TIMER.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_PWM.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_uid.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_AnoScope.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_sdio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_mm32f327x_iar.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_demo_DMP.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_rtc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_rcc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_eth.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_misc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_tim.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_Balance.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_iwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_CAMERA.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_mm32f327x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_fsmc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_I2C_MPU6050.pbi</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_ver.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_wwdg.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_uid.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\Source\IAR_StartAsm\startup_mm32f327x_iar.s</file>
+            <file>$PROJ_DIR$\..\USER\main.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\Source\system_mm32f327x.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_wwdg.h</file>
+            <file>$PROJ_DIR$\..\USER\龙邱ARM144p母板资源分配.txt</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_ver.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_FLASH.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_PWM.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_DMA.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_ADC.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_Encoder.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_I2C.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_SOFTI2C.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_GPIO.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_SOFTSPI.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_SOFTSPI.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_SPI.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_SPI.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_ADC.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_SYS.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_DMA.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_FLASH.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_GPIO.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_I2C.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_SYS.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_TIMER.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_TIMER.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_UART.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_UART.h</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_Encoder.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\dtype.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_conf.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_adc.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_PWM.c</file>
+            <file>$PROJ_DIR$\..\DRV\LQ_SOFTI2C.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_bkp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_PID.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_ADC.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_DMA.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_MotorServo.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_MT9V034.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_TIMER.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_TFT18.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_GPIO_KEY.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_crs.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_SYS.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_Encoder.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_SOFTI2C.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_SPI.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_GPIO_LED.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_I2C.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_UART.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_FLASH.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_can.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_OLED096.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_PWM.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_comp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_GPIO.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_SOFTSPI.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_crc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_ImageProcess.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_Inductor.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_dbg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_dac.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_dbg.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\MM32.map</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_Balance.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_I2C_MPU6050.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_CAMERA.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_GPIO_EXIT.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_pwr.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_demo_DMP.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_ICM20689.o</file>
+            <file>$TOOLKIT_DIR$\config\linker\MindMotion\MM32F3270.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_AnoScope.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_fsmc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_tim.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_wwdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_ver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_dma.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_dac.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_eth.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_rtc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\MM32.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_flash.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_GPIO_EXIT.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_SPI.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_ADC.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_GPIO_KEY.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_sdio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_rcc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_exti.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_misc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_spi.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Backup (2) of LQ_F3277_Lib.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_uid.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_mm32f327x.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_TFT18.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LQ_DMA.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hal_iwdg.pbi</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_flash.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_fsmc.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_eth.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_exti.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_gpio.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_eth.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_dbg.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_device.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_exti.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_dma.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_dma.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_eth_conf.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_pwr.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_fsmc.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_iwdg.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_misc.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_i2c.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_misc.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_spi.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_iwdg.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_sdio.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_rtc.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_redefine.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_rcc.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_sdio.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_rtc.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_uid.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_tim.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_tim.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_spi.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_uart.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_uart.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_syscfg.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_crc.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_dac.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_crc.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_crs.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_dac.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_i2c.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_crs.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_ICM20689.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_ICM20689.c</file>
+            <file>$PROJ_DIR$\..\APP\MPU6050\LQ_I2C_MPU6050.c</file>
+            <file>$PROJ_DIR$\..\APP\MPU6050\LQ_I2C_MPU6050.h</file>
+            <file>$PROJ_DIR$\..\APP\MPU6050\LQ_demo_DMP.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_GPIO_EXIT.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_TFT18Pic.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_GPIO_EXIT.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_ImageProcess.c</file>
+            <file>$PROJ_DIR$\..\APP\MPU6050\LQ_MPU6050_DMP.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_CAMERA.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_GPIO_KEY.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_ImageProcess.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_Inductor.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_MotorServo.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_MT9V034.c</file>
+            <file>$PROJ_DIR$\..\APP\include.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_MT9V034.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_OLED096.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_PID.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_AAConfig.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_CAMERA.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_Inductor.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_AnoScope.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_OLED096.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_GPIO_KEY.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_GPIO_LED.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_Balance.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_Balance.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_PID.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_TFT18.c</file>
+            <file>$PROJ_DIR$\..\APP\MPU6050\LQ_MPU6050_DMP.a</file>
+            <file>$PROJ_DIR$\..\APP\LQ_GPIO_LED.c</file>
+            <file>$PROJ_DIR$\..\APP\LQ_MotorServo.h</file>
+            <file>$PROJ_DIR$\..\APP\LQ_TFT18.h</file>
+            <file>$PROJ_DIR$\..\APP\用户可以在此文件夹添加自己的文件.txt</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_dbg.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_comp.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_comp.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_bkp.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_can.h</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_can.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_bkp.c</file>
+            <file>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Inc\hal_adc.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_ver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\Source\IAR_StartAsm\startup_mm32f327x_iar.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\USER\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\Source\system_mm32f327x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_FLASH.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_Encoder.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_GPIO.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_SOFTSPI.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_SPI.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 148</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_ADC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_SYS.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_DMA.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_I2C.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_TIMER.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_UART.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_PWM.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\DRV\LQ_SOFTI2C.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\MM32.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 132 94 89 108 111 114 99 118 117 47 41 18 32 49 27 38 45 42 3 40 39 33 14 43 35 30 16 2 91 133 124 126 130 92 101 107 112 127 98 104 105 125 131 115 116 93 238 95 109 90 110 102 113 103 100 97 96 106 34 36 48 119 122 129 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_eth.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 151</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 154</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_fsmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_sdio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 144</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_uid.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_crs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_dac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 145 121</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_ICM20689.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\MPU6050\LQ_I2C_MPU6050.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\MPU6050\LQ_demo_DMP.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_GPIO_EXIT.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_ImageProcess.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_GPIO_KEY.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_Inductor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_MotorServo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_MT9V034.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_OLED096.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_PID.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_CAMERA.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_AnoScope.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_Balance.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_TFT18.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\APP\LQ_GPIO_LED.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_dbg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_comp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_can.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Device\MM32F3277\HAL_Lib\Src\hal_bkp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
